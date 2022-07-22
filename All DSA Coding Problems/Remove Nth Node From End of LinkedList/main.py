@@ -40,17 +40,17 @@ class ListNode:
         self.val = val
         self.next = next
 
-# Input from leetcode
+# Input from leetcode (not the most fancy initialization of a linked list, but gets the job done)
 head = ListNode(1, ListNode(2, ListNode(3, ListNode(4, ListNode(5)))))
 n = 2
 
-# created just to help us visualize the output values from our linked list (not part of the problem or solution)
+# created just to help me visualize the output values from our linked list (not part of the problem or solution)
 def iterate_linked_list(node):
     while node:
         print(node.val)
         node = node.next
 
-# our solution
+# My solution
 def remove_nth_pointer(head, n):
     current_node = head
 
