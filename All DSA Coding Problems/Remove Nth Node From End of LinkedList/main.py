@@ -87,4 +87,6 @@ iterate_linked_list(remove_nth_pointer(head, n)) # is sent to iterate linked lis
 # Time complexity: O(N) to count the number of nodes in the linked list + O(N) to find the node to remove
 # which is O(N+N) = O(2N) = simply O(N)
 
-# space complexity: O(N) since the amount of data stored increases linearly with the number of nodes in the linked list
+# space complexity: O(1) since the linked list is given to us from leetcode
+# Note: if we were to create the linked list ourselves in another situation, it would be O(N) since the amount of data 
+# stored increases linearly with the number of nodes in the linked list
