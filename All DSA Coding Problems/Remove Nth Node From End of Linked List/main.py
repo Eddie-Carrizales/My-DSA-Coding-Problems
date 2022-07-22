@@ -40,17 +40,17 @@ class ListNode:
         self.val = val
         self.next = next
 
-# Input from leetcode (not the most fancy initialization of a linked list, but gets the job done)
+# Input from leetcode
 head = ListNode(1, ListNode(2, ListNode(3, ListNode(4, ListNode(5)))))
 n = 2
 
-# created just to help me visualize the output values from our linked list (not part of the problem or solution)
+# created just to help us visualize the output values from our linked list (not part of the problem or solution)
 def iterate_linked_list(node):
     while node:
         print(node.val)
         node = node.next
 
-# My solution
+# our solution
 def remove_nth_pointer(head, n):
     current_node = head
 
@@ -87,6 +87,4 @@ iterate_linked_list(remove_nth_pointer(head, n)) # is sent to iterate linked lis
 # Time complexity: O(N) to count the number of nodes in the linked list + O(N) to find the node to remove
 # which is O(N+N) = O(2N) = simply O(N)
 
-# space complexity: O(1) since the linked list is given to us from leetcode
-# Note: if we were to create the linked list ourselves in another situation, it would be O(N) since the amount of data 
-# stored increases linearly with the number of nodes in the linked list
+# space complexity: O(N) since the amount of data stored increases linearly with the number of nodes in the linked list
