@@ -24,11 +24,11 @@ Output: 1->2->3
 
 # --Plan--
 """
-1. create two new variable a current_node and a next_node each pointing to head and head.next respectively
+1. create two new variables: a current_node and a next_node each pointing to head and head.next respectively
 2. traverse the linked list with a loop, if the current_node.next is none then break the loop and return the head
 3. if the current node and the next node have the same value then remove the next node 
 4. if they do not have the same value then just move the head node forward
-5. finally take care of edge case, if linked list is empty return none (i.e. current_node)
+5. finally take care of edge cases, if linked list is empty return none (i.e. current_node)
 """
 
 # --Implement--
