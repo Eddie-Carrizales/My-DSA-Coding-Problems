@@ -1,6 +1,6 @@
 # Author:      Eddie F. Carrizales
 # Date:        07/27/2022
-# Problem Description:
+# Problem Description: Given a singly linked list, return its length
 
 # ------UMPIRE------
 
