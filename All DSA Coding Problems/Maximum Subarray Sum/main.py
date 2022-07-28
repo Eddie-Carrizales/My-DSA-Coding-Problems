@@ -46,7 +46,7 @@ def getMaxSum(arr, k):
         return -1
 
     for num in arr:
-        # add values to our dictionary
+        # add values to our list
         list.append(num)
 
         # if the length of our current list is greater than our sliding window we remove the front element to keep sliding
