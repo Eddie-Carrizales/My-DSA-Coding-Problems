@@ -79,6 +79,6 @@ print(sort_stack(given_stack))
 # However, after trying a lot of approaches I looked up hints and realized there was only O(N^2) solution
 
 # --Evaluate--
-# Time complexity: O(N^2)
-# Space complexity: O(N)
+# Time complexity: O(N^2) since we have a nested while loop
+# Space complexity: O(N) since we created another temporary stack
 
