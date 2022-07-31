@@ -11,6 +11,17 @@ Write a program to sort a stack such that the smallest items are on top.
 
 # --Understand--
 """
+IMPORTANT NOTE TO SELF: 
+-We can see in the problem description "you may not copy elements into any other data structure (such as an array)"
+-Normally, we can find solutions to problems in O(N) time or O(N log N). However, this specific problem is giving us a constraing in the problem description.
+-As a note to myself, whenever I/we see any constraint like this where other data structures are prohibited, this means that our time complexity will be 
+ different than our usual time.
+-Also, if we think about it a little more, arrays can sort in O(N log N), so if we cannot use an array which has relatively fast sorting time, that means
+ that the time complexity will probably be slower than O(N log N), meaning that it could be O(N^2). Furthermore, if the running time is O(N^2), this 
+ means we most likely need a nested loop in our implementation/solution. 
+ 
+-(And sure enough after being stuck for 2 hours trying to find a solution in O(N), I realized there was none and that the fastest was O(N^2))
+
 - Input and output are both stacks
 
 Example1:
