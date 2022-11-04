@@ -79,8 +79,8 @@ def reverse_a_string2(the_string:str) -> str:
 print("Implementation 2: " + reverse_a_string2(starting_input))
 
 # Review
-# implementation 1 worked correctly but is slower
-# implementation 2 is a bit more complex but is faster
+# implementation 1 worked correctly
+# implementation 2 worked correctly using two pointer approach
 
 # Evaluate
 #implementation 1
@@ -91,6 +91,6 @@ space complexity: O(N) since we will store a string of size n
 
 #implementation 2
 """
-time complexity: O(1)
+time complexity: O(N)
 space complexity: O(N) since we will store a string of size n in an array
 """
